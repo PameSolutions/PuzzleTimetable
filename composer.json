@@ -1,0 +1,24 @@
+{
+    "name": "pamesolutions/puzzletimetable",
+    "type": "typo3-flow-package",
+    "description": "PameSolutions puzzle timetable",
+	"license": "LGPL-3.0+",
+	"authors": [
+		{
+			"name": "Pascal Maechler",
+			"email": "1989.pascal@gmail.com",
+			"homepage": "",
+			"role": "Developer"
+		}
+	],
+    "require": {
+		"typo3/flow": "*",
+		"typo3/twitter-bootstrap": "dev-master",
+		"typo3/swiftmailer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "PameSolutions\\PuzzleTimetable": "Classes"
+        }
+    }
+}
